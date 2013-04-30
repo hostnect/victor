@@ -67,11 +67,11 @@ a.vcard:hover{ background-position:0 -48px;}
 /***** Section *****/
 
 section {width:790px; height:350px; margin:0 auto; padding:20px 20px 30px 20px; background: url(../images/bg-section.png);border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; position:relative;}
-section#about ,section#resume ,section#portfolio , section#contact{ display:none;}
-section#about a{ color:#d15600;}
-section#resume a{ color:#73880a;}
+section#sobre ,section#resumo ,section#portfolio , section#contato{ display:none;}
+section#sobre a{ color:#d15600;}
+section#resumo a{ color:#73880a;}
 section#portfolio a{ color:#3f4c6b;}
-section#contact a{ color:#d01f3c;}
+section#contato a{ color:#d01f3c;}
 section.menu{width:830px; height:230px; margin:0 auto; padding:0; background:none;}
 a.close{ width:32px; height:64px; position:absolute; top:16px; right:-32px; z-index:999; display:block; background:url(../images/bg-close.png) right top no-repeat;}
 
@@ -218,7 +218,7 @@ a.close{ width:20px; height:20px; position:absolute; top:12px; right:-20px; z-in
 a.close img {max-width:20px !important}
 
 .jspDrag{width: 5px; left:-2px;border-radius:7px; -webkit-border-radius:7px; -moz-border-radius:7px;}
-section#about img{ max-width:100px;}
+section#sobre img{ max-width:100px;}
 .image-left {float: left;margin: 5px 10px 5px 0;}
 ul.info{ width:197px; margin:5px 0 0 0;}
 ul.info li{font-size:10px; margin:0 0 4px 0; line-height:10px;}
@@ -300,7 +300,7 @@ a.close img {width:10px ; height:10px;padding:0;}
 
 .jspVerticalBar{width: 4px;}
 .jspDrag{width: 5px; left:-2px;border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;}
-section#about img{ max-width:75px;}
+section#sobre img{ max-width:75px;}
 .image-left {float: left;margin: 5px 5px 5px 0;}
 ul.info{ width:130px; margin:5px 0 0 0;}
 ul.info li{font-size:6px; margin:0 0 2px 0; line-height:8px;}
@@ -383,7 +383,7 @@ a.close img {width:20px ; height:20px;padding:0;}
 
 .jspVerticalBar{width: 4px;}
 .jspDrag{width: 5px; left:-2px;border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;}
-section#about img{ max-width:115px;}
+section#sobre img{ max-width:115px;}
 .image-left {float: left;margin: 5px 10px 5px 0;}
 ul.info{ width:250px; margin:5px 0 0 0;}
 ul.info li{font-size:14px; margin:0 0 3px 0; line-height:16px;}
