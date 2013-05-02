@@ -2,7 +2,7 @@
 
 $nomeContato = $_POST['nome'];
 $emailContato = $_POST['email']; 
-$assuntoContato = $_POST['assunto'];
+$assuntoContato = 'Contato Site victorcolucci.com';
 $mensagemContato = $_POST['mensagem'];
 
 // Inclui o arquivo class.phpmailer.php localizado na pasta phpmailer
@@ -27,8 +27,8 @@ $mail->FromName = $nomeContato; // Seu nome
 
 // Define os destinatário(s)
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-$mail->AddAddress('victor@hostnect.net', 'Victor Colucci - ADM Site');
-$mail->AddBCC('victorcbr@gmail.com', 'Victor Colucci - ADM Site');
+$mail->AddAddress('victor@hostnect.net', 'Victor C. Bredarioli - Hostnect');
+$mail->AddBCC('victorcbr@gmail.com', 'Victor C. Bredarioli - Hostnect');
 
 //$mail->AddAddress('ciclano@site.net');
 //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
@@ -42,10 +42,12 @@ $mail->IsHTML(TRUE); // Define que o e-mail será enviado como HTML
 // Define a mensagem (Texto e Assunto)
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 $mail->Subject  = $assuntoContato; // Assunto da mensagem
-$mail->Body = $mensagemContato;
+$mail->Body = 'Olá,<br> '.$nomeContato.' entrou em contato pelo site e enviou a seguinte mensagem: <br><br><i>'.$mensagemContato.'</i><br><br>
+<b>Dados do contato</b><br>
+<b>Nome:</b> '.$nomeContato.'<br>
+<b>Email:</b> '.$emailContato.'<br>
+';
 //$mail->AltBody = $mensagemContato;
-
-
 
 // Envia o e-mail
 $enviado = $mail->Send();
