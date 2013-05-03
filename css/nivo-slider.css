@@ -127,18 +127,20 @@ Author URI: http://dev7studios.com
 /* Caption styles */
 .nivo-caption {
 	position:absolute;
-	left:0px;
+	right:0px;
 	bottom:0px;
-	background:#000;
+	background: #4f5b77;
 	color:#fff;
 	opacity:0.8; /* Overridden by captionOpacity setting */
-	width:100%;
+	width:30%;
+	height: 10%;
 	/*width:200px;
 	height:100%;*/
 	z-index:8;
 }
 .nivo-caption p {
-	padding:15px;
+	/*padding:15px;*/
+	padding-left: 15%;
 	margin:0;
 }
 .nivo-caption a {
