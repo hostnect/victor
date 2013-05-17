@@ -58,9 +58,10 @@ p {font-size:15px; height:auto;line-height: 1.4em; padding:0; margin:0;}
 /***** Header *****/
 
 header {width:830px; height:60px; margin:0 auto 30px 0;}
-header h1{ color:#657089; font-size:33px; text-shadow:#b0b2b1 2px 2px 0; margin:0;font-family: 'QlassikBoldRegular';}
-header h1 span{ color:#ffffff;font-family: 'QlassikBoldRegular';}
+header h1{ color:#657089; font-size:33px; text-shadow:#ffffff 2px 2px 0; margin:0;font-family: 'QlassikBoldRegular';}
+header h1 span{ color:#ffffff;font-family: 'QlassikBoldRegular';text-shadow:#b0b2b1 2px 2px 0;}
 header h5{ color:#657089;margin:0;text-shadow:#ffffff 2px 2px 0;font-family: 'QlassikBoldRegular';}
+header h5 span{ color:#ffffff;font-family: 'QlassikBoldRegular';text-shadow:#b0b2b1 2px 2px 0;}
 a.vcard{ width:48px; height:48px; margin:0; padding:0; background:url(../images/vcard.png) 0 0 no-repeat; display:block;}
 a.vcard:hover{ background-position:0 -48px;}
 
